@@ -1,0 +1,112 @@
+
+*{
+    overflow-x: none;
+}
+
+.prayer-filter{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(11, 66, 3);
+    opacity: 80%;
+    position: absolute;
+}
+
+
+.weather-filter{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 123, 131);
+    filter: grayscale(0.3);
+    opacity: 70%;
+    position: absolute;
+}
+
+.background-img{
+    position: relative;
+}
+.prayer{
+    background-image: url("praying.jpeg");
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+ ;
+
+   height: 100vh;
+
+}
+
+.background-img button{
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
+
+.weather {
+    background-image: url("https://www.everwallpaper.co.uk/cdn/shop/products/dreamy-clouds-ll-mural-wallpaper-plain.jpg?v=1647485637");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+ 
+   
+
+}
+
+
+
+.green-filter{
+    background-color: rgb(5, 78, 4);
+    opacity: 0.6;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar-bg-brown{
+    background-color: #cce5aa !important;
+}
+
+.main-title-homepage{
+    font-size: 2.5em;
+}
+
+.weather-title{
+    left: 20vw !important;
+    width: 15%;
+
+    font-size: 3em;
+    color: white;
+}
+
+.prayer-title{
+    right: 20vw !important;
+    width: 15%;
+
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+}
+
+.bg-signup{
+    background: rgb(241, 238, 238);
+    border: 3px solid rgb(5, 116, 164);
+
+    border-radius: 5px;
+}
+
+.bg-signup h2{
+  color: black !important;
+}
+
+.card{
+    width: 20em;
+    background-color: #d8eeb9;
+}
+
+
+.card span{
+    width: 16em;
+   color: green;
+}
